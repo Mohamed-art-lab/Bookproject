@@ -1,0 +1,54 @@
+.recipe-heading {
+    color: rgb(166, 43, 43);
+}
+  
+.recipe-form {
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(166, 43, 43, 0.8);
+    padding: 20px;
+    background-color: #fff;
+}
+  
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(166, 43, 43);
+    font-weight: 400;
+    font-size: 18px;
+}
+  
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+  
+.submit-button {
+    background-color: rgb(166, 43, 43);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.submit-button:hover {
+    background-color: rgb(95, 24, 24);
+}
+
+button {
+    background-color: rgb(166, 43, 43);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: rgb(95, 24, 24);
+}

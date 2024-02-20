@@ -1,0 +1,80 @@
+.featured-recipe-container {
+    width: 800px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(166, 43, 43, 0.8);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .featured-recipe-title {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .featured-recipe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .recipe-details {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .recipe-image {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .featured-recipe:hover {
+    transform: scale(1.05);
+  }
+  
+  .recipe-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .recipe-description {
+    color: black;
+    margin: 5px 0;
+    font-weight: 400;
+  }
+  .recipe-description p {
+    margin-top: 10px;
+  }
+  
+  .recipe-button {
+    background-color: rgb(166, 43, 43);
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+  }
+
+  .recipe-button a{
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .recipe-button:hover {
+    background-color: rgb(92, 24, 24);
+    color: white;
+  }
+  

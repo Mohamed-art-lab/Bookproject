@@ -1,0 +1,582 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "name": "Harira soup",
+            "cuisine": "North African",
+            "difficulty": "Intermediate",
+            "prep-time": "20 mins",
+            "cook-time": "1 hr 20 mins",
+            "total-time": "1 hr 40 mins",
+            "serving": "6",
+            "image": "https://www.thespruceeats.com/thmb/VYPte2nVkETFFHeLTicXLmXeWx4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-moroccan-harira-soup-2394920-hero-01-ffd8665c225c48c4a45c4314e96821b2.jpg",
+            "ingredients": [
+              "2 tablespoons extra-virgin olive oil, plus more for garnish",
+              "12 ounces boneless lamb shoulder, cut into 1/2 -inch pieces (Optional)",
+              "1 large yellow onion, diced",
+              "1 teaspoon kosher salt, divided, or to taste",
+              "1 ½ teaspoons smoked paprika",
+              "1 teaspoon ground coriander",
+              "1 teaspoon ground cumin",
+              "½ teaspoon ground ginger",
+              "½ teaspoon freshly ground black pepper",
+              "¼ teaspoon ground cinnamon",
+              "4 cloves garlic, minced",
+              "1 tablespoon tomato paste",
+              "4 cups chicken broth",
+              "1 (15 ounce) can crushed tomatoes",
+              "2 ribs celery with leaves, chopped",
+              "2 cups water, or to taste",
+              "1 (15 ounce) can chickpeas, drained",
+              "¾ cup green lentils, rinsed",
+              "1 tablespoon all-purpose flour",
+              "2 tablespoons cold water",
+              "½ cup chopped fresh cilantro, divided",
+              "½ cup chopped fresh parsley, divided",
+              "½ cup vermicelli, broken into 1/2-inch pieces",
+              "⅛ teaspoon cayenne pepper",
+              "1 lemon, juiced"
+            ],
+            "instructions": [
+              "Gather all ingredients.",
+              "Heat olive oil in a stock pot over medium-high heat and cook cubed lamb until nicely browned and some of the fat has rendered, about 5 minutes.",
+              "Toss in diced onion and a generous pinch of salt. Cook, stirring often, until onion is soft and lightly browned, 4 to 5 minutes. Season with smoked paprika, coriander, cumin, ground ginger, black pepper, and cinnamon. Add minced garlic and cook and stir until fragrant, 30 seconds to 1 minute.",
+              "Add tomato paste and cook and stir for about 1 minute.",
+              "Add chicken broth, crushed tomatoes, and celery; stir until well combined. Add water and bring to a boil over high heat.",
+              "Once soup is boiling, add chickpeas and green lentils; season with salt to taste. Reduce heat to medium-low and simmer for 30 minutes, stirring occasionally.",
+              "Mix flour and 2 tablespoons cold water in a small bowl and drizzle slurry into the soup to thicken.",
+              "Bring back to a simmer and add 1/2 of the cilantro and 1/2 of the parsley; stir to combine.",
+              "Simmer on medium-low heat until meat and lentils are perfectly tender and soup has thickened, about 20 more minutes.",
+              "Stir in vermicelli and cook until tender, 10 to 15 minutes. Taste and adjust seasoning with cayenne and salt. Add remaining chopped cilantro and parsley and finish by drizzling lemon juice to taste into the soup.",
+              "Serve immediately with a drizzle of olive oil."
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Egusi soup",
+            "cuisine": "West African",
+            "difficulty": "Intermediate",
+            "prep-time": "15 mins",
+            "cook-time": "1 hr 5 mins",
+            "total-time": "1 hr 20 mins",
+            "serving": "6",
+            "image": "https://demandafrica.com/wp-content/uploads/2017/06/EgusiSoup-e1533238405501.jpg",
+            "ingredients": [
+              "¾ cup pumpkin seeds",
+              "1 ½ pounds cubed beef stew meat",
+              "Salt to taste",
+              "½ cup peanut oil",
+              "2 large tomatoes, chopped",
+              "1 small onion, chopped",
+              "2 habanero peppers, seeded and minced",
+              "2 pounds fresh shrimp, peeled and deveined",
+              "18 ounces tomato sauce",
+              "1 ½ cups water",
+              "3 tablespoons tomato paste",
+              "1 pound fresh spinach, washed and chopped"
+            ],
+            "instructions": [
+              "Place pumpkin seeds in a blender; blend until the mixture is powdery, for about 30 to 40 seconds. Set aside.",
+              "Cut beef into bite-sized cubes; season with salt.",
+              "Heat oil in a large pot over medium-high heat. Cook beef in hot oil until brown but not cooked through, for 3 to 5 minutes.",
+              "Place tomatoes, onion, and peppers in a blender; blend until smooth, about 30 seconds. Stir the tomato mixture into the beef; reduce heat to medium-low and cover. Cook until the meat is tender, for 40 to 50 minutes.",
+              "Add shrimp, tomato sauce, water, and tomato paste; simmer for 10 minutes.",
+              "Stir in spinach and powdered pumpkin seeds. Continue simmering for an additional 10 minutes.",
+              "Serve while hot."
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Ugali",
+            "cuisine": "East African",
+            "difficulty": "Easy",
+            "prep-time": "5 mins",
+            "cook-time": "30 mins",
+            "total-time": "35 mins",
+            "serving": "4",
+            "image": "https://cdn-images-1.medium.com/max/640/1*yC9JWW0o5r6Nt1iveuSQ8g.jpeg",
+            "ingredients": [
+              "4 cups Water",
+              "2 cups White cornmeal finely ground"
+            ],
+            "instructions": [
+              "Bring water to a boil in a pot.",
+              "Add the maize meal and stir to prevent lumps.",
+              "Add more maize meal to make a thick porridge.",
+              "Keep stirring until the maize meal is well cooked.",
+              "Tip out onto a plate — the ugali should hold its shape. Typically looking for the thickness/consistency of play dough.",
+              "Serve while hot."
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Chips mayai",
+            "cuisine": "East African",
+            "difficulty": "Easy",
+            "prep-time": "5 mins",
+            "cook-time": "5 mins",
+            "total-time": "10 mins",
+            "serving": "1",
+            "image": "https://cdn.standardmedia.co.ke/images/wysiwyg/images/KbJQ2e0hBrO38PU6OdGWMz2MhjZYYoOvakiEmjnF.jpg",
+            "ingredients": [
+              "2 Eggs",
+              "French Fries",
+              "Salt (to taste)",
+              "Black Pepper (to taste)",
+              "oil"
+            ],
+            "instructions": [
+              "Make yourself a good amount of French Fries.",
+              "In a bowl whisk the eggs, add salt and pepper to taste. Add French fries to the bowl and mix it all well",
+              "In a pan heat oil and add the fries-egg mixture to it. Cook for 3-4 minutes until golden from bottom then flip and cook the other side.",
+              "Serve hot with your favorite chili sauce, bread or have it as is, Enjoy!"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Tapalapa",
+            "cuisine": "West African",
+            "difficulty": "Hard",
+            "prep-time": "1 hr",
+            "cook-time": "1 hr",
+            "total-time": "2 hrs",
+            "serving": "6",
+            "image": "https://davidkarlin.files.wordpress.com/2021/08/img_3515.jpeg?w=1108&h=737&crop=1",
+            "ingredients": [
+              "500g all-purpose flour",
+              "1 packet (7g) active dry yeast",
+              "1 teaspoon sugar",
+              "1 teaspoon salt",
+              "300ml lukewarm water",
+              "2 tablespoons vegetable oil or melted butter"
+            ],
+            "instructions": [
+              "Preheat your oven to 220°C (425°F).",
+              "Proof the yeast: In a small bowl, mix the yeast, sugar, and a couple of tablespoons of warm water. Let it sit for about 5-10 minutes until it becomes frothy. This indicates that the yeast is active.",
+              "In a large mixing bowl, combine the flour and salt. Create a well in the center.",
+              "Pour the activated yeast mixture and the vegetable oil or melted butter into the well.",
+              "Gradually incorporate the wet ingredients into the dry ingredients while adding the lukewarm water little by little.",
+              "Knead the dough: Turn the mixture onto a floured surface and knead for about 10 minutes until the dough becomes smooth and elastic. You can also use a stand mixer with a dough hook attachment for this step.",
+              "Form a ball with the dough and place it back into the mixing bowl. Cover it with a clean kitchen towel or plastic wrap.",
+              "Let the dough rise: Allow the dough to rise in a warm place for about 1 to 2 hours or until it has doubled in size.",
+              "Punch down the risen dough to release any air bubbles, and then shape it into the desired size and shape for your Tapalapa loaves or rolls.",
+              "Place the shaped dough onto a baking sheet lined with parchment paper.",
+              "Score the tops of the loaves with a sharp knife or make cuts with scissors to create patterns.",
+              "Bake the Tapalapa bread in the preheated oven for about 20-25 minutes or until the bread turns golden brown and sounds hollow when tapped on the bottom.",
+              "Once baked, remove the bread from the oven and allow it to cool on a wire rack before slicing and serving."
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Jollof Rice",
+            "cuisine": "West African (Nigerian/Ghanaian)",
+            "difficulty": "Intermediate",
+            "prep-time": "15 mins",
+            "cook-time": "45 mins",
+            "total-time": "1 hr",
+            "serving": "4",
+            "image": "https://grandbaby-cakes.com/wp-content/uploads/2023/04/jollof-rice-recipe-23.jpg",
+            "ingredients": [
+              "2 cups long-grain parboiled rice",
+              "1/4 cup vegetable oil",
+              "1 onion, finely chopped",
+              "2 red bell peppers, blended",
+              "2 tomatoes, blended",
+              "3 cups chicken or vegetable broth",
+              "1 teaspoon thyme",
+              "1 teaspoon curry powder",
+              "Salt and pepper to taste",
+              "Optional: Cooked chicken or shrimp for topping"
+            ],
+            "instructions": [
+              "Heat oil in a pot and sauté onions until translucent.",
+              "Add blended peppers and tomatoes; cook until the mixture thickens.",
+              "Stir in rice, thyme, curry powder, salt, and pepper.",
+              "Pour in broth, cover, and simmer until rice is cooked and liquid is absorbed.",
+              "Optional: Top with cooked chicken or shrimp."
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Bobotie",
+            "cuisine": "South African",
+            "difficulty": "Intermediate",
+            "prep-time": "20 mins",
+            "cook-time": "1 hr",
+            "total-time": "1 hr 20 mins",
+            "serving": "6",
+            "image": "https://gradfood.com/wp-content/uploads/2022/08/South-African-Bobotie-1024x768.jpg",
+            "ingredients": [
+              "1 kg ground beef",
+              "1 onion, finely chopped",
+              "2 slices white bread, soaked in milk",
+              "2 tablespoons curry powder",
+              "1 tablespoon apricot jam",
+              "1 tablespoon vinegar",
+              "1 cup milk",
+              "3 eggs",
+              "Salt and pepper to taste",
+              "Bay leaves for garnish"
+            ],
+            "instructions": [
+              "Preheat oven to 180°C (350°F).",
+              "Sauté onions, add beef, and brown.",
+              "Mix in soaked bread, curry powder, jam, vinegar, salt, and pepper.",
+              "Transfer mixture to a baking dish.",
+              "Beat eggs with milk and pour over the beef mixture.",
+              "Place bay leaves on top and bake until golden brown."
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Atayef (Stuffed Arabic Pancakes)",
+            "cuisine": "North African (Arabic)",
+            "difficulty": "Intermediate",
+            "prep-time": "30 mins",
+            "cook-time": "15 mins",
+            "total-time": "45 mins",
+            "serving": "12",
+            "image": "https://hildaskitchenblog.com/wp-content/uploads/2023/07/atayef-plate-and-coffee-2.jpg",
+            "ingredients": [
+              "2 cups all-purpose flour",
+              "1 teaspoon baking powder",
+              "1 tablespoon sugar",
+              "1 1/2 cups water",
+              "Filling: Sweet cheese, nuts, or sweet cream",
+              "Syrup: Sugar, water, and lemon juice"
+            ],
+            "instructions": [
+              "Mix flour, baking powder, sugar, and water to form a batter.",
+              "Heat a non-stick pan, pour small circles of batter, and cook until bubbles appear.",
+              "Fill each pancake with sweet cheese, nuts, or sweet cream; fold in half.",
+              "Seal edges and fry until golden brown.",
+              "Make a sugar syrup by boiling sugar, water, and lemon juice; drizzle over atayef."
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Bunny Chow",
+            "cuisine": "South African (Durban)",
+            "difficulty": "Easy",
+            "prep-time": "15 mins",
+            "cook-time": "45 mins",
+            "total-time": "1 hr",
+            "serving": "4",
+            "image": "https://i1.wp.com/louskitchencorner.freybors.com/wp-content/uploads/2020/07/bunny-chow.png?fit=1024%2C819&ssl=1",
+            "ingredients": [
+              "4 hollowed-out bread loaves (quarter or half)",
+              "500g lamb or chicken, cubed",
+              "2 onions, finely chopped",
+              "2 tomatoes, chopped",
+              "2 teaspoons curry powder",
+              "1 teaspoon ginger-garlic paste",
+              "1/2 cup chicken broth",
+              "Fresh coriander for garnish"
+            ],
+            "instructions": [
+              "Sauté onions, add meat and cook until browned.",
+              "Mix in tomatoes, curry powder, and ginger-garlic paste.",
+              "Pour in chicken broth, cover, and simmer until meat is tender.",
+              "Spoon the curry into hollowed-out bread loaves.",
+              "Garnish with fresh coriander and serve."
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Piri Piri Chicken",
+            "cuisine": "Mozambican/Portuguese",
+            "difficulty": "Easy",
+            "prep-time": "20 mins",
+            "cook-time": "40 mins",
+            "total-time": "1 hr",
+            "serving": "4",
+            "image": "https://explorers.kitchen/wp-content/uploads/2016/01/Mozambique-Piri-piri-chicken-10-of-11.jpg",
+            "ingredients": [
+              "4 chicken thighs",
+              "1/4 cup olive oil",
+              "2 tablespoons lemon juice",
+              "2 tablespoons red wine vinegar",
+              "4 cloves garlic, minced",
+              "2 teaspoons paprika",
+              "1 teaspoon dried oregano",
+              "1 teaspoon cayenne pepper",
+              "Salt and pepper to taste"
+            ],
+            "instructions": [
+              "Preheat oven to 200°C (400°F).",
+              "Mix olive oil, lemon juice, red wine vinegar, garlic, paprika, oregano, cayenne, salt, and pepper to make a marinade.",
+              "Coat chicken thighs with the marinade and let it sit for at least 15 minutes.",
+              "Bake chicken in the oven until golden brown and cooked through, about 40 minutes.",
+              "Serve with your favorite side dishes."
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Akara",
+            "cuisine": "West African",
+            "difficulty": "Intermediate",
+            "prep-time": "20 mins",
+            "cook-time": "20 mins",
+            "total-time": "40 mins",
+            "serving": "4",
+            "image": "https://www.wikihow.com/images/e/ef/Make-Akara-Step-9-Version-2.jpg",
+            "ingredients": [
+              "2 cups black-eyed peas, soaked and peeled",
+              "1 onion, finely chopped",
+              "1 red bell pepper, finely chopped",
+              "2 tablespoons cornmeal",
+              "1 teaspoon ground pepper",
+              "1 teaspoon salt",
+              "Vegetable oil for frying"
+            ],
+            "instructions": [
+              "In a blender, blend the black-eyed peas with a little water until smooth.",
+              "Transfer the mixture to a bowl and add chopped onions, bell pepper, cornmeal, ground pepper, and salt. Mix well.",
+              "In a deep skillet, heat vegetable oil. Using a spoon, carefully drop spoonfuls of the batter into the hot oil.",
+              "Fry until golden brown and crispy, turning to cook all sides.",
+              "Remove from the oil and drain on paper towels. Serve warm."
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Msemen",
+            "cuisine": "Moroccan",
+            "difficulty": "Intermediate",
+            "prep-time": "15 mins",
+            "cook-time": "30 mins",
+            "total-time": "45 mins",
+            "serving": "4",
+            "image": "https://i0.wp.com/africa-cuisine.com/wp-content/uploads/2023/03/Msemen.jpeg?fit=1170%2C984&ssl=1",
+            "ingredients": [
+            "3 cups semolina flour",
+            "1 cup all-purpose flour",
+            "1 teaspoon salt",
+            "1 tablespoon sugar",
+            "1 tablespoon yeast, dissolved in warm water",
+            "1 1/2 cups warm water",
+            "1/2 cup vegetable oil",
+            "Butter for brushing"
+            ],
+            "instructions": [
+            "In a large mixing bowl, combine semolina flour, all-purpose flour, salt, and sugar.",
+            "Add the dissolved yeast mixture and gradually pour in the warm water. Knead the dough until smooth and elastic.",
+            "Divide the dough into golf ball-sized portions and coat each ball with vegetable oil. Let them rest for 15 minutes.",
+            "On a floured surface, flatten each ball into a thin square. Fold the edges to the center to create a layered square.",
+            "Cook each square on a hot griddle until golden brown on both sides.",
+            "Brush with butter before serving."
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Chakalaka",
+            "cuisine": "South African",
+            "difficulty": "Easy",
+            "prep-time": "15 mins",
+            "cook-time": "20 mins",
+            "total-time": "35 mins",
+            "serving": "4",
+            "image": "https://maisontravers.files.wordpress.com/2020/05/siba_episode-04_low-res-217.jpg",
+            "ingredients": [
+            "2 tablespoons vegetable oil",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "1 red bell pepper, chopped",
+            "1 green bell pepper, chopped",
+            "2 carrots, grated",
+            "1 can (400g) baked beans in tomato sauce",
+            "1 teaspoon curry powder",
+            "1 teaspoon paprika",
+            "Salt and pepper to taste",
+            "Chopped fresh cilantro for garnish"
+            ],
+            "instructions": [
+            "In a pan, heat vegetable oil and sauté chopped onions and minced garlic until softened.",
+            "Add chopped red and green bell peppers, grated carrots, curry powder, and paprika. Cook until vegetables are tender.",
+            "Stir in baked beans in tomato sauce and cook until heated through.",
+            "Season with salt and pepper. Garnish with chopped cilantro before serving."
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Plantain Pancakes",
+            "cuisine": "West African",
+            "difficulty": "Easy",
+            "prep-time": "15 mins",
+            "cook-time": "15 mins",
+            "total-time": "30 mins",
+            "serving": "4",
+            "image": "https://eatwellabi.com/wp-content/uploads/2020/11/savoury-plantain-7.jpg",
+            "ingredients": [
+            "2 ripe plantains, mashed",
+            "1 cup all-purpose flour",
+            "1 teaspoon baking powder",
+            "1 tablespoon sugar",
+            "1/2 teaspoon cinnamon",
+            "1 cup milk",
+            "1 egg",
+            "1 teaspoon vanilla extract",
+            "Butter or oil for cooking",
+            "Maple syrup for serving"
+            ],
+            "instructions": [
+            "In a bowl, combine mashed ripe plantains, all-purpose flour, baking powder, sugar, and cinnamon.",
+            "In another bowl, whisk together milk, egg, and vanilla extract. Add the wet ingredients to the dry ingredients and mix until smooth.",
+            "Heat butter or oil in a pan over medium heat. Pour in the pancake batter to form small pancakes.",
+            "Cook until bubbles form on the surface, then flip and cook the other side until golden brown.",
+            "Serve the plantain pancakes warm, drizzled with maple syrup."
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Ful Medames",
+            "cuisine": "Egyptian",
+            "difficulty": "Easy",
+            "prep-time": "10 mins",
+            "cook-time": "30 mins",
+            "total-time": "40 mins",
+            "serving": "4",
+            "image": "https://thishealthytable.com/wp-content/uploads/2023/01/ful-medames-recipe-720x720.jpg",
+            "ingredients": [
+            "2 cups cooked fava beans",
+            "2 cloves garlic, minced",
+            "Juice of 1 lemon",
+            "3 tablespoons olive oil",
+            "1 teaspoon ground cumin",
+            "Salt and pepper to taste",
+            "Chopped fresh parsley for garnish",
+            "Hard-boiled eggs (optional)"
+            ],
+            "instructions": [
+            "In a saucepan, heat olive oil and sauté minced garlic until fragrant.",
+            "Add cooked fava beans, cumin, lemon juice, salt, and pepper. Cook until heated through.",
+            "Mash some of the beans with the back of a spoon to create a thicker consistency.",
+            "Serve warm, garnished with chopped parsley. Add hard-boiled eggs if desired."
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Malva Pudding",
+            "cuisine": "South African",
+            "difficulty": "Intermediate",
+            "prep-time": "15 mins",
+            "cook-time": "45 mins",
+            "total-time": "1 hr",
+            "serving": "6",
+            "image": "https://footprinttheworld.com/wp-content/uploads/2021/07/IMG_5321.jpeg",
+            "ingredients": [
+              "1 cup all-purpose flour",
+              "1 cup white sugar",
+              "1 teaspoon baking soda",
+              "Pinch of salt",
+              "1 large egg",
+              "1 tablespoon apricot jam",
+              "1 tablespoon vinegar",
+              "1 cup milk",
+              "2 tablespoons unsalted butter",
+              "1/2 cup heavy cream",
+              "1/2 cup hot water"
+            ],
+            "instructions": [
+              "Preheat the oven to 350°F (180°C). Grease a baking dish.",
+              "In a bowl, mix flour, sugar, baking soda, and salt.",
+              "In another bowl, whisk together egg, apricot jam, vinegar, and milk. Add this mixture to the dry ingredients.",
+              "Melt butter and add it to the batter. Mix well and pour into the prepared baking dish.",
+              "In a saucepan, heat cream and hot water. Pour this over the batter without stirring.",
+              "Bake for 45 minutes or until a toothpick comes out clean. Serve warm."
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Baklava",
+            "cuisine": "North African",
+            "difficulty": "Intermediate",
+            "prep-time": "30 mins",
+            "cook-time": "45 mins",
+            "total-time": "1 hr 15 mins",
+            "serving": "12",
+            "image": "https://primemoroccotours.com/wp-content/uploads/2022/07/Moroccan-Sweets-3.jpg",
+            "ingredients": [
+              "1 package (16 ounces) phyllo dough, thawed",
+              "1 cup unsalted butter, melted",
+              "2 cups mixed nuts (walnuts, pistachios, almonds), finely chopped",
+              "1/2 cup granulated sugar",
+              "1 teaspoon ground cinnamon",
+              "1 cup honey",
+              "1/2 cup water",
+              "1 teaspoon lemon juice"
+            ],
+            "instructions": [
+              "Preheat the oven to 325°F (163°C). Grease a baking dish.",
+              "In a bowl, combine chopped nuts, sugar, and ground cinnamon.",
+              "Place one sheet of phyllo dough in the prepared dish and brush with melted butter. Repeat until you have several layers.",
+              "Spread a portion of the nut mixture over the layered phyllo dough.",
+              "Continue layering phyllo dough and nuts until you run out of ingredients, finishing with a top layer of phyllo dough.",
+              "Cut the baklava into diamond or square shapes before baking.",
+              "Bake for 45 minutes or until golden brown.",
+              "In a saucepan, combine honey, water, and lemon juice. Heat until the mixture slightly thickens.",
+              "Pour the honey mixture over the baked baklava. Allow it to cool before serving."
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Doro Wat",
+            "cuisine": "Ethiopian",
+            "difficulty": "Intermediate",
+            "prep-time": "30 mins",
+            "cook-time": "1 hr",
+            "total-time": "1 hr 30 mins",
+            "serving": "4",
+            "image": "https://www.chilipeppermadness.com/wp-content/uploads/2023/08/Doro-Wat-Recipe-SQ.jpg",
+            "ingredients": [
+              "1 cup butter, divided",
+              "1 onion, chopped",
+              "2 ½ cups water, divided",
+              "1 (6 ounce) can tomato paste",
+              "¾ cup berbere seasoning",
+              "4 cloves garlic, minced",
+              "1 knob ginger, grated",
+              "4 skinless, boneless chicken breasts, cubed",
+              "⅓ cup sweet white wine",
+              "4 hard-boiled eggs",
+              "½ teaspoon ground ginger"
+            ],
+            "instructions": [
+              "Prepare injera batter by mixing teff flour with water. Allow it to ferment for at least 24 hours.",
+              "Heat 1/2 cup butter in a skillet over medium-low heat. Cook and stir onion until translucent, 5 to 6 minutes. Add 1/2 cup water and tomato paste; stir until hot, about 2 minutes. Stir in remaining butter, berbere, garlic, and ginger. Adjust heat to low and cook until mixture thickens to paste consistency, 20 to 30 minutes.",
+              "Stir remaining water into berbere paste; add chicken. Simmer until thickened to sauce consistency, about 45 minutes.",
+              "Stir white wine, cardamom, and black pepper into the sauce; add hard-boiled eggs. Cook until sauce is reduced slightly, about 15 minutes more.",
+              "Cook injera on a hot griddle and serve with Doro Wat."
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Pilau",
+            "cuisine": "East African",
+            "difficulty": "Intermediate",
+            "prep-time": "25 mins",
+            "cook-time": "40 mins",
+            "total-time": "1 hr 5 mins",
+            "serving": "6",
+            "image": "https://eatwellabi.com/wp-content/uploads/2022/06/Kenyan-Pilau-5.jpg",
+            "ingredients": [
+              "2 cups basmati rice",
+              "500g meat (chicken or beef), cubed",
+              "2 onions, finely chopped",
+              "3 tomatoes, diced",
+              "1 teaspoon cumin",
+              "1 teaspoon coriander",
+              "Salt (to taste)",
+              "2-3 cardamom pods (remove seeds and crush them)",
+              "4-5 cloves (crushed or ground)",
+              "4 cups broth"
+            ],
+            "instructions": [
+              "In a pan, sauté onions until golden brown.",
+              "Add meat cubes and brown on all sides.",
+              "Stir in diced tomatoes and spices; cook until tomatoes are soft.",
+              "Add rice and sauté for 2-3 minutes.",
+              "Pour in the broth, cover, and simmer until rice is cooked and liquid is absorbed."
+            ]
+        }
+    ]
+}
