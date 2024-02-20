@@ -45,7 +45,7 @@ function OrderLine({order, orders, setOrders, index}){
         const lineOrder = <div className="row m-1">
             <div className="col-sm-3">
             <small className="form-label text-muted">Product Name</small>
-                <select name="item_id" defaultValue={order.id} className="form-select form-select-sm" onChange={(event)=> handleFormChange(event)}>
+            <select name="item_id" value={order.item_id} className="form-select form-select-sm" onChange={(event) => handleFormChange(event)}>
                     <option>--Select Item--</option>
                     {items.map((item, index)=> <option value={item.id} key={index}>{item.item_name}</option>)}
                 </select>
