@@ -1,5 +1,5 @@
 import React from 'react';
-import "./footer.css";
+import "src/components/bookFooter.css";
 
 export default function BookFooter() {
    return (
