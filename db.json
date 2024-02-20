@@ -1,19 +1,58 @@
 {
-  "posts": [
+  "books": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "cover": "https://example.com/to-kill-a-mockingbird.jpg",
+      "description": "A classic novel set in the American South during the 1930s.",
+      "chapters": ["Chapter 1", "Chapter 2", "Chapter 3"]
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "cover": "https://example.com/1984.jpg",
+      "description": "A dystopian novel set in a totalitarian society.",
+      "chapters": ["Part 1", "Part 2", "Part 3"]
+    },
+    {
+      "id": 3,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "cover": "https://example.com/the-great-gatsby.jpg",
+      "description": "A tale of wealth, love, and the American Dream in the Roaring Twenties.",
+      "chapters": ["Chapter 1", "Chapter 2", "Chapter 3"]
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "genre": "Fantasy",
+      "cover": "https://example.com/harry-potter.jpg",
+      "description": "The first book in the Harry Potter series.",
+      "chapters": ["Chapter 1", "Chapter 2", "Chapter 3"]
+    },
+    {
+      "id": 5,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "cover": "https://example.com/the-hobbit.jpg",
+      "description": "A fantasy novel that follows the journey of Bilbo Baggins.",
+      "chapters": ["Chapter 1", "Chapter 2", "Chapter 3"]
+    },
+    {
+      "id": 6,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "cover": "https://example.com/pride-and-prejudice.jpg",
+      "description": "A classic novel exploring themes of love and social class.",
+      "chapters": ["Chapter 1", "Chapter 2", "Chapter 3"]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
