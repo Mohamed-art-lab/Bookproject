@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import "src/components/BookFilter.css";
+import "./BookFilter.css";
 
 function BookFilter({ books }) {
     const [genreFilter, setGenreFilter] = useState('All');

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./components/BookNavBar.css"
+import "./BookNavBar.css"
   
 function BookNavBar() {
     return(

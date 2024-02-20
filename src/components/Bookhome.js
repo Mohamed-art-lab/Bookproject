@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'; 
-import "./components/BookHome.css";
+import "./BookHome.css";
 import sliderData from "./sliderData";
 import FeaturedBook from "./FeaturedBook"; // Assuming you have a FeaturedBook component
 import { NavLink } from "react-router-dom";

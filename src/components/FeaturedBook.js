@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "./components/FeaturedBook.css";
+import "./FeaturedBook.css";
 import { NavLink } from 'react-router-dom';
 
 const FeaturedBook = () => {
