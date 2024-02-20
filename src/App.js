@@ -1,39 +1,36 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import Food from './components/Food';
-import ReadRecipe from './components/ReadRecipe';
-import AddRecipe from './components/AddRecipe';
-import Footer from './components/Footer';
-import NavBar from './components/NavBar';
-
+import BookHome from './components/Bookhome'; // Adjust the component names accordingly
+import ReadBook from './components/ReadBook';
+import AddBook from './components/AddBook'; // Assuming you have an AddBook component
+import BookFooter from './components/BookFooter'; // Assuming you have a BookFooter component
+import BookNavBar from './components/BookNavbar'; // Assuming you have a BookNavBar component
 
 function App() {
+  const [books, setBooks] = useState([]);
 
-  const [recipes, setRecipes] = useState([]);
-  
   useEffect(() => {
-    fetch('https://jikoni-vercel.vercel.app/recipes')
-    .then((res) => res.json())
-    .then((data) => setRecipes(data))
-    .catch(error => {
-      console.error("Error fetching data:", error);
-    })
-  }, [recipes])
+    fetch('https://your-book-api-url/books') // Replace with your actual book API URL
+      .then((res) => res.json())
+      .then((data) => setBooks(data))
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, [books]);
 
-  const images = recipes.map((recipe) => recipe.image)  
+  const bookCovers = books.map((book) => book.cover);
 
   return (
     <BrowserRouter>
-    <NavBar />
+      <BookNavBar />
       <Routes>
-        <Route exact path='/' element={<Home images={images}/>}/>
-        <Route exact path='/food/:id' element={<ReadRecipe/>}/>
-        <Route exact path='/food' element={<Food recipes={recipes}/>}/>
-        <Route path = '/add'  element={<AddRecipe recipes={recipes} setRecipes={setRecipes}/>}  />
+        <Route exact path='/' element={<BookHome bookCovers={bookCovers} />} />
+        <Route exact path='/books/:id' element={<ReadBook />} />
+        <Route path='/books' element={<BookSection books={books} />} />
+        <Route path='/add-book' element={<AddBook books={books} setBooks={setBooks} />} />
       </Routes>
-    <Footer/>
+      <BookFooter />
     </BrowserRouter>
   );
 }

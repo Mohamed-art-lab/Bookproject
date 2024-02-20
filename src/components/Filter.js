@@ -2,38 +2,38 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import "./Filter.css";
 
-function Filter({ recipes }) {
-    const [difficultyFilter, setDifficultyFilter] = useState('All');
+function BookFilter({ books }) {
+    const [genreFilter, setGenreFilter] = useState('All');
 
-    const handleChange = (difficulty) => {
-        setDifficultyFilter(difficulty);
+    const handleChange = (genre) => {
+        setGenreFilter(genre);
     };
 
-    // Filter recipes based on the difficulty level
-    const filteredRecipes = difficultyFilter === 'All' ? recipes : recipes.filter(recipe => recipe.difficulty === difficultyFilter);
+    // Filter books based on the genre
+    const filteredBooks = genreFilter === 'All' ? books : books.filter(book => book.genre === genreFilter);
 
     return (
         <div>
-            <div className='difficulty-filter'>
-                <button className={difficultyFilter === 'All' ? 'active' : ''} onClick={() => handleChange('All')}>All</button>
-                <button className={difficultyFilter === 'Easy' ? 'active' : ''} onClick={() => handleChange('Easy')}>Easy</button>
-                <button className={difficultyFilter === 'Intermediate' ? 'active' : ''} onClick={() => handleChange('Intermediate')}>Intermediate</button>
-                <button className={difficultyFilter === 'Hard' ? 'active' : ''} onClick={() => handleChange('Hard')}>Hard</button>
+            <div className='genre-filter'>
+                <button className={genreFilter === 'All' ? 'active' : ''} onClick={() => handleChange('All')}>All</button>
+                <button className={genreFilter === 'Fiction' ? 'active' : ''} onClick={() => handleChange('Fiction')}>Fiction</button>
+                <button className={genreFilter === 'Non-Fiction' ? 'active' : ''} onClick={() => handleChange('Non-Fiction')}>Non-Fiction</button>
+                {/* Add more genres as needed */}
             </div>
-            <div className='recipe-container'>
-                {filteredRecipes.map((recipe) => (
-                    <div key={recipe.id} className='food-container'>
-                        <h3 className='food-title'>{recipe.name}</h3>
+            <div className='book-container'>
+                {filteredBooks.map((book) => (
+                    <div key={book.id} className='book-item'>
+                        <h3 className='book-title'>{book.title}</h3>
                         <img 
-                            src={recipe.image} 
-                            alt={recipe.name}
-                            className='food-image' 
+                            src={book.cover} 
+                            alt={book.title}
+                            className='book-cover' 
                         />
-                        <p className='food-description'>Cuisine: {recipe.cuisine}</p>
-                        <p className='food-description'>Difficulty: {recipe.difficulty}</p>
-                        <p className='food-description'>Serving: {recipe.serving}</p>
+                        <p className='book-description'>Author: {book.author}</p>
+                        <p className='book-description'>Genre: {book.genre}</p>
+                        {/* Add more book details as needed */}
                         <p>
-                            <NavLink className='recipe-link-button' to={`/food/${recipe.id}`}>Get Recipe</NavLink>  
+                            <NavLink className='book-link-button' to={`/books/${book.id}`}>View Book</NavLink>  
                         </p>
                     </div>
                 ))}
@@ -42,4 +42,4 @@ function Filter({ recipes }) {
     );
 }
 
-export default Filter;
+export default BookFilter;

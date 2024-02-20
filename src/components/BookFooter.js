@@ -1,30 +1,27 @@
+import React from 'react';
 import "./footer.css";
 
-export default function Footer () {
+export default function BookFooter() {
    return (
     <div className="footer">
         <div className="footer-section">
-            <p className="title">Jikoni.com</p>
-            <p>The fabric of Jikoni was born ot of love and respect for these humble deli
-            creations,met with desire to bring quality ingredients to the table.Simply 
-            put we are here to bring you the best swahili dishes.</p>
+            <p className="title">BookCorner.com</p>
+            <p>Explore the world of literature with BookCorner, where words come to life. 
+            We are dedicated to bringing you the best in books, from classics to modern masterpieces.</p>
             <p>&copy; 2024 | All Rights Reserved </p>
         </div>
         <div className="footer-section">
             <p className="title">Contact Us</p>
-            <p>jikoni@gmail.com</p>
+            <p>bookcorner@gmail.com</p>
             <p>+254 784803430</p>
-            <p>600 S,Brookhurst,Anaheim</p>
+            <p>600 S, Brookhurst, Anaheim</p>
         </div>
         <div className="footer-section">
-            <p className="title">Jikoni.com</p>
+            <p className="title">BookCorner.com</p>
             <p>Instagram</p>
             <p>Facebook</p>
             <p>Twitter</p>
          </div>
     </div>
    )
-
 }
-
-

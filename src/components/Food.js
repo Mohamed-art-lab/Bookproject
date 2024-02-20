@@ -1,14 +1,15 @@
- import Search from "./Search";
- import Filter from "./Filter";
+import React from 'react';
+import Search from "./Search";
+import BookFilter from "./BookFilter"; // Assuming you've named the book filter component accordingly
 
- function Food({ recipes }){
+function BookSection({ books }) {
 
     return ( 
         <div>
-            <Search recipes={recipes}/>
-            <Filter recipes={recipes}/>
+            <Search books={books}/>
+            <BookFilter books={books}/>
         </div>
-     );
+    );
 }
- 
-export default Food;
+
+export default BookSection;

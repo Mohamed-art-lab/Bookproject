@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'; 
 import "./Home.css";
 import sliderData from "./sliderData";
-import FeaturedRecipe from "./FeaturedRecipe";
+import FeaturedBook from "./FeaturedBook"; // Assuming you have a FeaturedBook component
 import { NavLink } from "react-router-dom";
 
-function Home({recipes}) {
+function BookHome({ books }) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const slideLength = sliderData.length;
 
@@ -53,7 +53,7 @@ function Home({recipes}) {
                                 <h2>{slide.title}</h2>
                                 <p>{slide.body}</p>
                                 <p className="homebtn">
-                                    <NavLink exact='true' to="/food">Get Started</NavLink>
+                                    <NavLink exact='true' to="/books">Explore Books</NavLink>
                                 </p>
                             </div>
                         </>
@@ -61,11 +61,10 @@ function Home({recipes}) {
                 </div>
             ))}
         </div>
-        <FeaturedRecipe recipes={recipes}/>
+        <FeaturedBook books={books} />
         </>
         
     );
 }
 
-export default Home;
-
+export default BookHome;
