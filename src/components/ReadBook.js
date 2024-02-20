@@ -8,7 +8,7 @@ function ReadBook() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch(`https://your-book-api-url/${id}`) // Replace with your book API URL
+        fetch(`http://localhost:3001/books/${id}`) // Replace with your book API URL
             .then((res) => res.json())
             .then((data) => setBook(data))
             .catch((error) => {

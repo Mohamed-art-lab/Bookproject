@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import BookHome from './components/Bookhome'; // Adjust the component names accordingly
+import BookHome from './components/Bookhome'; 
 import ReadBook from './components/ReadBook';
-import AddBook from './components/AddBook'; // Assuming you have an AddBook component
-import BookFooter from './components/BookFooter'; // Assuming you have a BookFooter component
-import BookNavBar from './components/BookNavbar'; // Assuming you have a BookNavBar component
+import AddBook from './components/AddBook'; 
+import BookFooter from './components/BookFooter'; 
+import BookNavBar from './components/BookNavbar'; 
 
 function App() {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    fetch('https://your-book-api-url/books') // Replace with your actual book API URL
+    fetch('http://localhost:3001/books') 
       .then((res) => res.json())
       .then((data) => setBooks(data))
       .catch((error) => {

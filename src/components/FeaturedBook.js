@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const FeaturedBook = () => {
   const [featuredBook, setFeaturedBook] = useState(null);
-  const apiURL = 'https://your-book-api-url'; // Replace with your book API URL
+  const apiURL = 'http://localhost:3001/books/'; // Replace with your book API URL
 
   useEffect(() => {
     fetch(apiURL)
