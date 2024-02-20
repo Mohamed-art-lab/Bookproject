@@ -20,7 +20,7 @@ const bookData = [
     description: 'Join our community of book enthusiasts and share your favorite reads. Whether it\'s a timeless classic or a hidden gem, let the world explore the pages of your literary adventures.',
   },
   {
-    image: 'https://atticbooks.co.ke/images/loading.svg',
+    image: 'https://cdnattic.atticbooks.co.ke/img/X151411.jpg',
     title: 'Savor Every Word, Create Memories',
     description: 'Experience the joy of diving into new stories with every book. Make reading an adventure, and let each page you turn be a celebration of the rich and diverse world of literature.',
   }
