@@ -5,7 +5,7 @@ const Orders = ()=> {
     const [orders, setOrders] = useState([])
 
     useEffect(()=> {
-        fetch('https://tomashi.loca.lt/orders')
+        fetch('http://localhost:3001/items/')
         .then(response => response.json())
         .then(data => setOrders(data))
     },[orders])

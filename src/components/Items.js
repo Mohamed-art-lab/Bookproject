@@ -15,7 +15,7 @@ const Items = ()=> {
     },[])
 
     const deleteItem = (id)=> {
-         fetch(`https://tomashi.loca.lt/items/${id}`,
+         fetch(`http://localhost:3001/items/${id}`,
          {
             method: 'DELETE'
         })
@@ -48,7 +48,7 @@ const Items = ()=> {
 
     const handleSubmit = (event)=> {
         event.preventDefault()
-        fetch(`https://tomashi.loca.lt/items/${item.item_id}`,{
+        fetch(`http://localhost:3001/items/${item.item_id}`,{
         method: 'PUT',
         headers: {
             'Accept': 'application/json',
@@ -65,7 +65,7 @@ const Items = ()=> {
     }
 
     const getItems = ()=> {
-        fetch('https://tomashi.loca.lt/items')
+        fetch('http://localhost:3001/items/')
     .then(response => response.json())
     .then(data => setItems(data))
     }

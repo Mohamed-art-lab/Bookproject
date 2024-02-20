@@ -11,7 +11,7 @@ function Orders(){
     
 
     useEffect(()=> {
-        fetch(' https://tomashi.loca.lt/customers')
+        fetch(' http://localhost:3001/items/')
         .then((response)=> response.json())
         .then( data => setCustomers(data))
         

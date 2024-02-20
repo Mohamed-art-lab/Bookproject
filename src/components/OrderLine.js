@@ -7,7 +7,7 @@ function OrderLine({order, orders, setOrders, index}){
     
 
     useEffect(()=> {
-        fetch('https://tomashi.loca.lt/items')
+        fetch('http://localhost:3001/items/')
         .then((response)=> response.json())
         .then( data => setItems(data))
         
